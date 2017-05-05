@@ -11,7 +11,7 @@ var learn = (function(){
 
 
 	self.loadJSON = function(){
-		url = "file:///Users/alexandersteacy/projects/biochem/data/learn.json";
+		url = "/data/learn.json";
 		request = new XMLHttpRequest();
 		request.open('Get', url);
 		request.responseType = 'json';
