@@ -1,0 +1,152 @@
+.green-font{color: #5DBE79;}
+.green{background-color: #5DBE79;}
+.mint-font{color: #BFD7CE;}
+.mint{background-color: #BFD7CE;}
+.slate-font{color: #232626;}
+.slate{background-color: #232626;}
+.blue-font{color: #41516D;}
+.blue{background-color: #41516D;}
+.magnolia-font{color: #8E68AD;}
+.magnolia{background-color: #8E68AD;}
+.rose-font{color: #F2EAF4;}
+.rose{background-color: #F2EAF4;}
+.white-font{color: #ffffff;}
+.white{background-color: #ffffff;}
+.red-font{color: #BC5E5E;}
+.red{background-color: #BC5E5E;}
+.orange-font{color: #FFA76C;}
+.yellow-font{color: #FFF8BB;}
+
+/********** Content Screen Styles **********/
+div#quiz-data{
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+	display: none;
+}
+div.topic{display:none; position: absolute; left: 0; right: 0;}
+div.question-text{display: none;}
+div.answer-data,
+div.incorrect-data{display: none; position: relative;}
+div.answer-data:hover,
+div.incorrect-data:hover{cursor: pointer;}
+div.answer-data span,
+div.incorrect-data span{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+div.answer-data.visible,
+div.incorrect-data.visible{
+	display: block;
+	color: #fff;
+	width: 75%;
+	background-color: #BC5E5E;
+	border-radius: 4px;
+	padding: 6px 25px;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+div.answer-data.visible{background-color: #5DBE79;}
+.user-incorrect:before,
+.user-correct:before{
+	content: '\2713';
+	position: absolute;
+	top: 200px;
+	left: 0;
+	right: 0;
+	opacity: .5;
+	color: #5DBE79;
+	font-size: 100px;
+	z-index: -1;
+}
+.user-incorrect:before{
+	content: "X";
+	color: #BC5E5E;
+}
+div.difficulty{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+div#screen div.question-text div.difficulty h3,
+div.question-text div.difficulty img{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 10px;
+	font-weight: normal;
+}
+/********** Completed Styles **********/
+div#completed{
+	display: none;
+	height: 450px;
+}
+
+/********** Multiple Choice/Select All Styles **********/
+div.select-all:hover,
+div.mc-choice:hover{
+	background-color: #BFD7CE;
+}
+div.select-all:before,
+div.mc-choice:before{
+	content: '';
+	position: absolute;
+	display: block;
+	height: 40px;
+	width: 40px;
+	top: 0;
+	left: 0;
+	background-image: url(../images/mc-toggle-off.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+div.select-all.selected:before,
+div.mc-choice.selected:before{
+	background-image: url(../images/mc-toggle-on.png);
+}
+div.select-all,
+div.mc-choice{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+	padding: 5px 0 5px 40px;
+	height: 30px;
+	width: 300px;
+	cursor: pointer;
+	background-color: none;
+	transition: background-color .5s, color .5s;
+}
+
+/********** Fill-in Styles **********/
+span.spacer{
+	display: inline-block;
+	width: 100px;
+	border-bottom: 1.5px solid #232626;
+}
+
+/********** Identify Styles **********/
+div.question-text img{
+	display: block;
+	margin: 10px auto;
+}
+
+/********** Mix & Match Styles **********/
+div.mix-match{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	background-color: #41516D;
+	width: 250px;
+	color: #ffffff;
+	margin: 10px auto;
+}

@@ -1,0 +1,181 @@
+{"learn" : [
+	
+	{"category" : {
+		"id" : "topic-0",
+		"class" : "learn", 
+		"image" : "topic-image.png",
+		"subject" : "Biochemistry is Fun!",
+		"subtopics" : [
+			
+			{"lesson" : {
+				"type" : "plain-text",
+				"id" : "subtopic-0",
+				"class" : "subtopic",
+				"title" : "General Information",
+				"image" : "topic-image.png",
+				"information" : [
+					{"paragraph" : "This is a paragraph"},
+					{"unorderedlist" : [
+						{"bullet" : "information for the first bullet"},
+						{"bullet" : "information for the second bullet"},
+						{"bullet" : "information for the third bullet"}
+					]},
+					{"orderedlist" : [
+						{"bullet" : "information for the first bullet"},
+						{"bullet" : "information for the second bullet"},
+						{"bullet" : "information for the third bullet"}
+					]},
+					{"image" : "logo.jpg"}
+				]
+			}},
+
+			{"lesson" : {
+				"type" : "slideshow",
+				"id" : "subtopic-1",
+				"class" : "subtopic",
+				"title" : "Slideshow",
+				"image" : "topic-image.png",
+				"information" : [
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide1.png",
+						"text" : "Slide information in paragraph form"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide2.jpg",
+						"unorderedlist" : [
+							{"bullet" : "information for the first bullet"},
+							{"bullet" : "information for the second bullet"},
+							{"bullet" : "information for the third bullet"}
+						]
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide3.jpg",
+						"orderedlist" : [
+							{"bullet" : "information for the first bullet"},
+							{"bullet" : "information for the second bullet"},
+							{"bullet" : "information for the third bullet"}
+						]
+					}}
+				]
+			}},
+
+			{"lesson" : {
+				"type" : "video",
+				"id" : "subtopic-2",
+				"class" : "subtopic",
+				"title" : "Video Lesson",
+				"image" : "topic-image.png",
+				"information" : {
+					"videoID" : "ArmlWtDnuys",
+					"description" : "Just a quick description of the video"
+				}
+			}}
+
+		]
+	}},
+
+	{"category" : {
+		"id" : "topic-1",
+		"class" : "learn", 
+		"image" : "topic-image.png",
+		"subject" : "Adventure",
+		"subtopics" : [
+			
+			{"lesson" : {
+				"type" : "adventure",
+				"id" : "subtopic-0",
+				"class" : "subtopic",
+				"title" : "Tricarboxylic Acid Cycle",
+				"image" : "topic-image.png",
+				"information" : [
+					
+					{"panel" : {
+						"type" : "Welcome",
+						"explanation" : [
+							{"paragraph" : "This is text about the adventure and a description of what the user will have to do"}
+						]
+					}},
+					
+					{"panel" : {
+						"type" : "Option",
+						"explanation" : [
+							{"paragraph" : "This is text descripting the decison to be made"},
+							{"paragraph" : "This is text descripting the decison to be made"},
+							{"paragraph" : "This is text descripting the decison to be made"}
+						],
+						"image" : "panel.png",
+						"options" : [
+							{"choice" : {
+								"class" : "option-A",
+								"direction" : "option-panel",
+								"button" : "button name A",
+								"text" : "This is a description of choice A"
+							}},
+							{"choice" : {
+								"class" : "option-B",
+								"direction" : "lateral-panel",
+								"button" : "button name B",
+								"text" : "This is a description of choice B"
+							}}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Side Path",
+						"class" : "offshoot",
+						"return" : "true",
+						"explanation" : [
+							{"paragraph" : "This was a wrong turn, head back to see what else you could have done"}
+						]
+					}},
+					
+					{"panel" : {
+						"type" : "Option",
+						"explanation" : [
+							{"paragraph" : "This is text descripting the decison to be made"},
+							{"paragraph" : "This is text descripting the decison to be made"},
+							{"paragraph" : "This is text descripting the decison to be made"}
+						],
+						"image" : "panel.png",
+						"options" : [
+							{"choice" : {
+								"class" : "option-A",
+								"direction" : "option-panel",
+								"button" : "button name A",
+								"text" : "This is a description of choice A"
+							}},
+							{"choice" : {
+								"class" : "option-B",
+								"direction" : "lateral-panel",
+								"button" : "button name B",
+								"text" : "This is a description of choice B"
+							}}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Side Path",
+						"class" : "offshoot",
+						"return" : "true",
+						"explanation" : [
+							{"paragraph" : "This was a wrong turn, head back to see what else you could have done"}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Conclusion",
+						"class" : "end-screen",
+						"explanation" : [
+							{"paragraph" : "This is an overview of what has been learned"}
+						]
+					}}
+
+				]
+			}}
+		]
+	}}
+
+]}

@@ -1,0 +1,68 @@
+.green-font{color: #5DBE79;}
+.green{background-color: #5DBE79;}
+.mint-font{color: #BFD7CE;}
+.mint{background-color: #BFD7CE;}
+.slate-font{color: #232626;}
+.slate{background-color: #232626;}
+.blue-font{color: #41516D;}
+.blue{background-color: #41516D;}
+.magnolia-font{color: #8E68AD;}
+.magnolia{background-color: #8E68AD;}
+.rose-font{color: #F2EAF4;}
+.rose{background-color: #F2EAF4;}
+.white-font{color: #ffffff;}
+.white{background-color: #ffffff;}
+.red-font{color: #BC5E5E;}
+.red{background-color: #BC5E5E;}
+.orange-font{color: #FFA76C;}
+.yellow-font{color: #FFF8BB;}
+
+
+/********** Learn screen styles *************/
+div#subtopic-screen{ display: none; }
+div#learn-data{	display: none; }
+div#learn-data div#screen{ border: none; }
+
+/********** slideshow styles *************/
+div.slide{position: relative; display: none;}
+div.slide img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+div.slide div.inner-slide{
+	position: absolute;
+	text-align: center;
+	background-color: rgba(191,215,216,0.7);
+	z-index: 1;
+	height: 300px;
+	width: 90%;
+	margin: 20px auto;
+	left: 0;
+	right: 0;
+}
+
+div.slideshow-nav{
+	position: absolute;
+	top: 215px;
+	display: block;
+	width: 40px;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #232626;
+	color: #ffffff;
+	z-index: 3;
+}
+div.slideshow-nav:hover{
+	transition: background-color .5s;
+	background-color: #FFA76C
+}
+div#slide-left{left: 0;}
+div#slide-right{right: 0;}
+
+/********** adventure styles *************/
+div.panel{display: none;}

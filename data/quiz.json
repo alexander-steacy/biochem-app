@@ -1,0 +1,265 @@
+{"quiz" : [
+
+	{"category" : {
+		"idname" : "topic-0",
+		"image" : "topic-image.png",
+		"classname" : "topic",
+		"categoryname" : "topic name: Yes We Can",
+		"questionlist" : [
+			
+			{"question" : {
+				"type" : "multiple-choice",
+				"idname" : "question-0",
+				"classname" : "question-text",
+				"stars" : "1",
+				"text" : "Actual question text?",
+				"answer" : "B",
+				"choices" : [
+					{"idname" : "A", "option" : "Choice A"},
+					{"idname" : "B", "option" : "Choice B"},
+					{"idname" : "C", "option" : "Choice C"},
+					{"idname" : "D", "option" : "Choice D"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. Try thinking about this...",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "fill-in",
+				"idname" : "question-1",
+				"classname" : "question-text",
+				"stars" : "4",
+				"text" : "The question needs to have [space] contained within.",
+				"answer" : "Two Words",
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'Two Words'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "true-false",
+				"idname" : "question-2",
+				"classname" : "question-text",
+				"stars" : "1",
+				"text" : "True or False: Actual question text?",
+				"answer" : "False",
+				"fixed" : "user correction",
+				"choices" : [
+					{"idname" : "true", "option" : "true"},
+					{"idname" : "false", "option" : "false"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. Try thinking about this...",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "identify",
+				"idname" : "question-3",
+				"classname" : "question-text",
+				"stars" : "2",
+				"image" : "image.png",
+				"text" : "Identify the image",
+				"answer" : "molecule name",
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'molecule name'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}}
+
+		]
+	}},
+
+	{"category" : {
+		"idname" : "topic-1",
+		"image" : "topic-image.png",
+		"classname" : "topic",
+		"categoryname" : "Amino Acids",
+		"questionlist" : [
+			
+			{"question" : {
+				"type" : "multiple-choice",
+				"idname" : "question-0",
+				"classname" : "question-text",
+				"stars" : "2",
+				"text" : "What type of amino acid is depicted below?",
+				"image" : "image.png",
+				"answer" : "B",
+				"choices" : [
+					{"idname" : "A", "option" : "polar neutral"},
+					{"idname" : "B", "option" : "non-polar"},
+					{"idname" : "C", "option" : "polar acidic"},
+					{"idname" : "D", "option" : "polar basic"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. When looking at an amino acid to determine if it is polar or non-polar, think about its R group? What functional groups are contained on the R group? How do functional groups affect the polarity of the amino acid?",
+				"discussion"	: "You got the correct answer! Alanine's R group is composed of a single methyl. Alkyl groups are non-polar in nature."
+			}},
+
+			{"question" : {
+				"type" : "select-all",
+				"idname" : "question-1",
+				"classname" : "question-text",
+				"stars" : "3",
+				"text" : "What type of amino acid is depicted below?",
+				"image" : "image.png",
+				"answer" : "BD",
+				"choices" : [
+					{"idname" : "A", "option" : "polar neutral"},
+					{"idname" : "B", "option" : "non-polar"},
+					{"idname" : "C", "option" : "polar acidic"},
+					{"idname" : "D", "option" : "polar basic"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. When looking at an amino acid to determine if it is polar or non-polar, think about its R group? What functional groups are contained on the R group? How do functional groups affect the polarity of the amino acid?",
+				"discussion"	: "You got the correct answer! Alanine's R group is composed of a single methyl. Alkyl groups are non-polar in nature."
+			}},
+
+			{"question" : {
+				"type" : "fill-in",
+				"idname" : "question-2",
+				"classname" : "question-text",
+				"stars" : "2",
+				"text" : "The question needs to have [space] contained within.",
+				"answer" : "Two Words",
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'Two Words'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "true-false",
+				"idname" : "question-3",
+				"classname" : "question-text",
+				"stars" : "1",
+				"text" : "True or False: Actual question text?",
+				"answer" : "False",
+				"fixed" : "user correction",
+				"choices" : [
+					{"idname" : "true", "option" : "true"},
+					{"idname" : "false", "option" : "false"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. Try thinking about this...",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "identify",
+				"idname" : "question-4",
+				"classname" : "question-text",
+				"stars" : "2",
+				"image" : "image.png",
+				"text" : "Identify the image",
+				"answer" : "molecule name",
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'molecule name'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "mix-match",
+				"idname" : "question-5",
+				"classname" : "question-text",
+				"stars" : "5",
+				"text" : "Arrange the below statements in the correct order",
+				"answer" : "ABCDE",
+				"parts" : [
+					{"idname" : "A", "option" : "This is part A"},
+					{"idname" : "B", "option" : "This is part B"},
+					{"idname" : "C", "option" : "This is part C"},
+					{"idname" : "D", "option" : "This is part D"},
+					{"idname" : "E", "option" : "This is part E"}
+				],
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'molecule name'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}}
+
+		]
+	}},
+
+	{"category" : {
+		"idname" : "topic-2",
+		"image" : "topic-image.png",
+		"classname" : "topic",
+		"categoryname" : "topic name: Please Help Me",
+		"questionlist" : [
+			
+			{"question" : {
+				"type" : "multiple-choice",
+				"idname" : "question-0",
+				"classname" : "question-text",
+				"stars" : "3",
+				"text" : "Actual question text?",
+				"answer" : "B",
+				"choices" : [
+					{"idname" : "A", "option" : "Choice A"},
+					{"idname" : "B", "option" : "Choice B"},
+					{"idname" : "C", "option" : "Choice C"},
+					{"idname" : "D", "option" : "Choice D"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. Try thinking about this...",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "fill-in",
+				"idname" : "question-1",
+				"classname" : "question-text",
+				"stars" : "1",
+				"text" : "The question needs to have [space] contained within.",
+				"answer" : "Two Words",
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'Two Words'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "true-false",
+				"idname" : "question-2",
+				"classname" : "question-text",
+				"stars" : "3",
+				"text" : "True or False: Actual question text?",
+				"answer" : "False",
+				"fixed" : "user correction",
+				"choices" : [
+					{"idname" : "true", "option" : "true"},
+					{"idname" : "false", "option" : "false"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. Try thinking about this...",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}},
+
+			{"question" : {
+				"type" : "identify",
+				"idname" : "question-3",
+				"classname" : "question-text",
+				"stars" : "4",
+				"image" : "image.png",
+				"text" : "Identify the image",
+				"answer" : "Two Words",
+				"incorrect" : "The answer is incorrect. Please try again. Enter 'Two Words'",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}}
+
+		]
+	}},
+
+	{"category" : {
+		"idname" : "topic-3",
+		"image" : "topic-image.png",
+		"classname" : "topic",
+		"categoryname" : "topic name: Freedom!!",
+		"questionlist" : [
+			
+			{"question" : {
+				"type" : "multiple-choice",
+				"idname" : "question-0",
+				"classname" : "question-text",
+				"stars" : "2",
+				"text" : "Actual question text?",
+				"answer" : "B",
+				"choices" : [
+					{"idname" : "A", "option" : "Choice A"},
+					{"idname" : "B", "option" : "Choice B"},
+					{"idname" : "C", "option" : "Choice C"},
+					{"idname" : "D", "option" : "Choice D"}
+					],
+				"incorrect" : "The answer is incorrect. Please try again. Try thinking about this...",
+				"discussion"	: "You got the correct answer! Here is an explanation."
+			}}
+
+		]
+	}}
+
+]}
