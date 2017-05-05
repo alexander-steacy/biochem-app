@@ -33,7 +33,7 @@ var quiz = (function(self){
   };
 
 	self.loadJSON = function(){
-		url = "/data/quiz.json";
+		url = "biochem-app/data/quiz.json";
 		request = new XMLHttpRequest();
 		request.open('Get', url);
 		request.responseType = 'json';

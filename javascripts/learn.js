@@ -11,7 +11,7 @@ var learn = (function(){
 
 
 	self.loadJSON = function(){
-		url = "/data/learn.json";
+		url = "biochem-app/data/learn.json";
 		request = new XMLHttpRequest();
 		request.open('Get', url);
 		request.responseType = 'json';
