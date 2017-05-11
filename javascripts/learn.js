@@ -151,29 +151,30 @@ var learn = (function(){
 		for(var i=0; i<data.information.length; i++){
 			for(key in data.information[i]){
 				display += '<div class="slide hidden">';
+				display += '<div class="inner-slide">';
 				for(keys in data.information[i][key]){
 					switch(keys){
 						case 'id':
 							break;
 						case 'title':
-							display += '<div class="inner-slide"><h3>' + data.information[i][key][keys] + '</h3></div>';
+							display += '<h3>' + data.information[i][key][keys] + '</h3>';
 							break;
 						case 'text':
-							display += '<div class="inner-slide"><p>' + data.information[i][key][keys] + '</p></div>';
+							display += '<p>' + data.information[i][key][keys] + '</p>';
 							break;
 						case 'unorderedlist':
-							display += '<div class="inner-slide"><ul>';
+							display += '<ul>';
 							for(var j=0; j<data.information[i][key][keys].length; j++){
 								display += '<li>' + data.information[i][key][keys][j].bullet + '</li>';
 							}
-							display += '</ul></div>';
+							display += '</ul>';
 							break;
 						case 'orderedlist':
-							display += '<div class="inner-slide"><ol>';
+							display += '<ol>';
 							for(var j=0; j<data.information[i][key][keys].length; j++){
 								display += '<li>' + data.information[i][key][keys][j].bullet + '</li>';
 							}
-							display += '</ol></div>';
+							display += '</ol>';
 							break;
 						case 'image':
 							display += '<img class="graphic" src="../images/' + data.information[i][key][keys] + '" />';
@@ -182,7 +183,7 @@ var learn = (function(){
 							console.log(keys, 'Nothing to see here folks');
 					}
 				}
-				display += '</div>';
+				display += '</div></div>';
 			}
 		}
 		display += '<div class="slideshow-nav" id="slide-left"><</div>';
