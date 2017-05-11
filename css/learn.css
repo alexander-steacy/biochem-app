@@ -26,11 +26,8 @@ div#learn-data div#screen{ border: none; }
 /********** slideshow styles *************/
 div.slide{position: relative; display: none;}
 div.slide img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 0;
+	height: 100px;
+	width: auto;
 }
 div.slide div.inner-slide{
 	position: absolute;
