@@ -135,7 +135,7 @@ var learn = (function(){
 						display += '</ol>';
 						break;
 					case 'image':
-						display += '<img src="../images/' + data.information[i][key] + '" />';
+						display += '<img src="../images/' + data.information[i][key][j].image + '" />';
 						break;
 					default:
 						console.log('Nothing to see here folks');
