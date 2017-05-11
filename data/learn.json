@@ -162,27 +162,27 @@
 				]
 			}},
 
-			{"lesson" : {
-				"type" : "plain-text",
-				"id" : "subtopic-0",
-				"class" : "subtopic",
-				"title" : "General Information",
-				"image" : "topic-image.png",
-				"information" : [
-					{"paragraph" : "This is a paragraph"},
-					{"unorderedlist" : [
-						{"bullet" : "information for the first bullet"},
-						{"bullet" : "information for the second bullet"},
-						{"bullet" : "information for the third bullet"}
-					]},
-					{"orderedlist" : [
-						{"bullet" : "information for the first bullet"},
-						{"bullet" : "information for the second bullet"},
-						{"bullet" : "information for the third bullet"}
-					]},
-					{"image" : "logo.jpg"}
-				]
-			}},
+			// {"lesson" : {
+			// 	"type" : "plain-text",
+			// 	"id" : "subtopic-0",
+			// 	"class" : "subtopic",
+			// 	"title" : "General Information",
+			// 	"image" : "topic-image.png",
+			// 	"information" : [
+			// 		{"paragraph" : "This is a paragraph"},
+			// 		{"unorderedlist" : [
+			// 			{"bullet" : "information for the first bullet"},
+			// 			{"bullet" : "information for the second bullet"},
+			// 			{"bullet" : "information for the third bullet"}
+			// 		]},
+			// 		{"orderedlist" : [
+			// 			{"bullet" : "information for the first bullet"},
+			// 			{"bullet" : "information for the second bullet"},
+			// 			{"bullet" : "information for the third bullet"}
+			// 		]},
+			// 		{"image" : "logo.jpg"}
+			// 	]
+			// }},
 
 			{"lesson" : {
 				"type" : "slideshow",
