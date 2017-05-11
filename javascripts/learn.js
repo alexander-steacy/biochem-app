@@ -174,6 +174,7 @@ var learn = (function(){
 		display += '<div class="slideshow-nav" id="slide-left"><</div>';
 		display += '<div class="slideshow-nav" id="slide-right">></div>';
 		$('#screen').html(display);
+		$('.slide').eq(0).removeClass('hidden').addClass('active').fadeIn();
 		$('.slideshow-nav').on('click', self.slideNavigation);
 	}
 
