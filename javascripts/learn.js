@@ -161,7 +161,6 @@ var learn = (function(){
 							display += '</ol>';
 							break;
 						case 'image':
-							console.log(data.information[i][key][keys]);
 							display += '<img class="graphic" src="../images/' + data.information[i][key][keys] + '" />';
 							break;
 						default:
