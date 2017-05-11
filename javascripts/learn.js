@@ -36,22 +36,6 @@ var learn = (function(){
 		$('.select-topic').on('click', self.buildSubtopics);
 		$('#main-topics').on('click', self.returnEvent);
 		$('#subtopics').on('click', self.returnEvent);
-		$(window).on('resize', self.adjustImage);
-	}
-
-	self.adjustImage = function(event){
-		var images = document.getElementsByClassName('slide-image'),
-				imagewidth = images[0].naturalWidth,
-				imageheight = images[0].naturalHeight,
-				ratio = imageheight/imagewidth + 1;
-		ratio = parseFloat(ratio.toFixed(2));
-
-		if(set == false){
-			$('.slide.active img').attr('height', 390);
-			$('.slide.active img').attr('width', 390*ratio);
-			$('.slide.active img')
-			set = true;
-		}
 	}
 
 	self.buildSubtopics = function(event){
@@ -190,9 +174,6 @@ var learn = (function(){
 		display += '<div class="slideshow-nav" id="slide-left"><</div>';
 		display += '<div class="slideshow-nav" id="slide-right">></div>';
 		$('#screen').html(display);
-		$('.slide').eq(0).removeClass('hidden').addClass('active').fadeIn(function(){
-			self.adjustImage();
-		});
 		$('.slideshow-nav').on('click', self.slideNavigation);
 	}
 
