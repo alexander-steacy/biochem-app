@@ -7,6 +7,161 @@
 		"subject" : "Biochemistry is Fun!",
 		"subtopics" : [
 			
+		{"lesson" : {
+				"type" : "slideshow",
+				"id" : "subtopic-0",
+				"class" : "subtopic",
+				"title" : "Slideshow",
+				"image" : "topic-image.png",
+				"information" : [
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Amino Acids",
+						"text" : "This section deals with the amino acids. The series of slides will show how each amino acid is classified, how they are identified, and the general structure of each."
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids",
+						"text" : "Hint: use a pnuemonic to remember - GAM VW FLIP"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Glycine (G)",
+						"text" : "Abbreviation: Gly",
+						"image" : "glycine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Alanine (A)",
+						"text" : "Abbreviation: Ala",
+						"image" : "alanine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Methionine (M)",
+						"text" : "Abbreviation: Met",
+						"image" : "methionine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Valine (V)",
+						"text" : "Abbreviation: Val",
+						"image" : "valine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Tryptophan (W)",
+						"text" : "Abbreviation: Try",
+						"image" : "tryptophan.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Phenylalanine (F)",
+						"text" : "Abbreviation: Phe",
+						"image" : "phenylalanine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Leucine (L)",
+						"text" : "Abbreviation: Leu",
+						"image" : "leucine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Isoleucine (I)",
+						"text" : "Abbreviation: Ile",
+						"image" : "isoleucine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Non-polar Amino Acids: Proline (P)",
+						"text" : "Abbreviation: Pro",
+						"image" : "proline.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids",
+						"text" : "Hint: use a pnuemonic to remember - STYNQC"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids: Serine (S)",
+						"text" : "Abbreviation: Ser",
+						"image" : "serine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids: Threonine (T)",
+						"text" : "Abbreviation: Thr",
+						"image" : "threonine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids: Tyrosine (Y)",
+						"text" : "Abbreviation: Tyr",
+						"image" : "tyrosine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids: Asparagine (N)",
+						"text" : "Abbreviation: Asn",
+						"image" : "asparagine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids: Glutamine (Q)",
+						"text" : "Abbreviation: Gln",
+						"image" : "glutamine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Neutral Amino Acids: Cysteine (C)",
+						"text" : "Abbreviation: Cys",
+						"image" : "cysteine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Acidic Amino Acids",
+						"text" : "Hint: These are the amino acids that contain carboxylic acid functional groups."
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Acidic Amino Acids: Aspartic Acid (D)",
+						"text" : "Abbreviation: Asp",
+						"image" : "aspartic-acid.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Acidic Amino Acids: Glutamic Acid (E)",
+						"text" : "Abbreviation: Glu",
+						"image" : "glutamic-acid.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Basic Amino Acids",
+						"text" : "Hint: These are the amino acids that contain amine functional groups."
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Acidic Amino Acids: Histidine (H)",
+						"text" : "Abbreviation: His",
+						"image" : "histidine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Acidic Amino Acids: Arginine (R)",
+						"text" : "Abbreviation: Arg",
+						"image" : "arginine.png"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"title" : "Polar Acidic Amino Acids: Lysine (L)",
+						"text" : "Abbreviation: Lys",
+						"image" : "lysine.png"
+					}}
+				]
+			}},
+
 			{"lesson" : {
 				"type" : "plain-text",
 				"id" : "subtopic-0",
