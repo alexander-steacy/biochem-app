@@ -6,8 +6,75 @@
 		"image" : "topic-image.png",
 		"subject" : "Biochemistry is Fun!",
 		"subtopics" : [
-			
-		{"lesson" : {
+
+			{"lesson" : {
+				"type" : "plain-text",
+				"id" : "subtopic-0",
+				"class" : "subtopic",
+				"title" : "General Information",
+				"image" : "topic-image.png",
+				"information" : [
+					{"paragraph" : "This is a paragraph"},
+					{"unorderedlist" : [
+						{"bullet" : "information for the first bullet"},
+						{"bullet" : "information for the second bullet"},
+						{"bullet" : "information for the third bullet"}
+					]},
+					{"orderedlist" : [
+						{"bullet" : "information for the first bullet"},
+						{"bullet" : "information for the second bullet"},
+						{"bullet" : "information for the third bullet"}
+					]},
+					{"image" : "logo.jpg"}
+				]
+			}},
+
+			{"lesson" : {
+				"type" : "slideshow",
+				"id" : "subtopic-1",
+				"class" : "subtopic",
+				"title" : "Slideshow",
+				"image" : "topic-image.png",
+				"information" : [
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide1.png",
+						"text" : "Slide information in paragraph form"
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide2.jpg",
+						"unorderedlist" : [
+							{"bullet" : "information for the first bullet"},
+							{"bullet" : "information for the second bullet"},
+							{"bullet" : "information for the third bullet"}
+						]
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide3.jpg",
+						"orderedlist" : [
+							{"bullet" : "information for the first bullet"},
+							{"bullet" : "information for the second bullet"},
+							{"bullet" : "information for the third bullet"}
+						]
+					}}
+				]
+			}},
+
+			{"lesson" : {
+				"type" : "video",
+				"id" : "subtopic-2",
+				"class" : "subtopic",
+				"title" : "Video Lesson",
+				"image" : "topic-image.png",
+				"information" : {
+					"videoID" : "ArmlWtDnuys",
+					"description" : "Just a quick description of the video"
+				}
+			}},
+
+			{"lesson" : {
 				"type" : "slideshow",
 				"id" : "subtopic-0",
 				"class" : "subtopic",
@@ -160,73 +227,6 @@
 						"image" : "amino-acids/lysine.png"
 					}}
 				]
-			}},
-
-			// {"lesson" : {
-			// 	"type" : "plain-text",
-			// 	"id" : "subtopic-0",
-			// 	"class" : "subtopic",
-			// 	"title" : "General Information",
-			// 	"image" : "topic-image.png",
-			// 	"information" : [
-			// 		{"paragraph" : "This is a paragraph"},
-			// 		{"unorderedlist" : [
-			// 			{"bullet" : "information for the first bullet"},
-			// 			{"bullet" : "information for the second bullet"},
-			// 			{"bullet" : "information for the third bullet"}
-			// 		]},
-			// 		{"orderedlist" : [
-			// 			{"bullet" : "information for the first bullet"},
-			// 			{"bullet" : "information for the second bullet"},
-			// 			{"bullet" : "information for the third bullet"}
-			// 		]},
-			// 		{"image" : "logo.jpg"}
-			// 	]
-			// }},
-
-			{"lesson" : {
-				"type" : "slideshow",
-				"id" : "subtopic-1",
-				"class" : "subtopic",
-				"title" : "Slideshow",
-				"image" : "topic-image.png",
-				"information" : [
-					{"slide" : {
-						"id" : "slide-image",
-						"image" : "slide1.png",
-						"text" : "Slide information in paragraph form"
-					}},
-					{"slide" : {
-						"id" : "slide-image",
-						"image" : "slide2.jpg",
-						"unorderedlist" : [
-							{"bullet" : "information for the first bullet"},
-							{"bullet" : "information for the second bullet"},
-							{"bullet" : "information for the third bullet"}
-						]
-					}},
-					{"slide" : {
-						"id" : "slide-image",
-						"image" : "slide3.jpg",
-						"orderedlist" : [
-							{"bullet" : "information for the first bullet"},
-							{"bullet" : "information for the second bullet"},
-							{"bullet" : "information for the third bullet"}
-						]
-					}}
-				]
-			}},
-
-			{"lesson" : {
-				"type" : "video",
-				"id" : "subtopic-2",
-				"class" : "subtopic",
-				"title" : "Video Lesson",
-				"image" : "topic-image.png",
-				"information" : {
-					"videoID" : "ArmlWtDnuys",
-					"description" : "Just a quick description of the video"
-				}
 			}}
 
 		]
