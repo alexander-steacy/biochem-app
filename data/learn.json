@@ -28,55 +28,55 @@
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Glycine (G)",
 						"text" : "Abbreviation: Gly",
-						"image" : "glycine.png"
+						"image" : "amino-acids/glycine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Alanine (A)",
 						"text" : "Abbreviation: Ala",
-						"image" : "alanine.png"
+						"image" : "amino-acids/alanine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Methionine (M)",
 						"text" : "Abbreviation: Met",
-						"image" : "methionine.png"
+						"image" : "amino-acids/methionine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Valine (V)",
 						"text" : "Abbreviation: Val",
-						"image" : "valine.png"
+						"image" : "amino-acids/valine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Tryptophan (W)",
 						"text" : "Abbreviation: Try",
-						"image" : "tryptophan.png"
+						"image" : "amino-acids/tryptophan.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Phenylalanine (F)",
 						"text" : "Abbreviation: Phe",
-						"image" : "phenylalanine.png"
+						"image" : "amino-acids/phenylalanine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Leucine (L)",
 						"text" : "Abbreviation: Leu",
-						"image" : "leucine.png"
+						"image" : "amino-acids/leucine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Isoleucine (I)",
 						"text" : "Abbreviation: Ile",
-						"image" : "isoleucine.png"
+						"image" : "amino-acids/isoleucine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Non-polar Amino Acids: Proline (P)",
 						"text" : "Abbreviation: Pro",
-						"image" : "proline.png"
+						"image" : "amino-acids/proline.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
@@ -87,37 +87,37 @@
 						"id" : "slide-image",
 						"title" : "Polar Neutral Amino Acids: Serine (S)",
 						"text" : "Abbreviation: Ser",
-						"image" : "serine.png"
+						"image" : "amino-acids/serine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Neutral Amino Acids: Threonine (T)",
 						"text" : "Abbreviation: Thr",
-						"image" : "threonine.png"
+						"image" : "amino-acids/threonine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Neutral Amino Acids: Tyrosine (Y)",
 						"text" : "Abbreviation: Tyr",
-						"image" : "tyrosine.png"
+						"image" : "amino-acids/tyrosine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Neutral Amino Acids: Asparagine (N)",
 						"text" : "Abbreviation: Asn",
-						"image" : "asparagine.png"
+						"image" : "amino-acids/asparagine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Neutral Amino Acids: Glutamine (Q)",
 						"text" : "Abbreviation: Gln",
-						"image" : "glutamine.png"
+						"image" : "amino-acids/glutamine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Neutral Amino Acids: Cysteine (C)",
 						"text" : "Abbreviation: Cys",
-						"image" : "cysteine.png"
+						"image" : "amino-acids/cysteine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
@@ -128,13 +128,13 @@
 						"id" : "slide-image",
 						"title" : "Polar Acidic Amino Acids: Aspartic Acid (D)",
 						"text" : "Abbreviation: Asp",
-						"image" : "aspartic-acid.png"
+						"image" : "amino-acids/aspartic-acid.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Acidic Amino Acids: Glutamic Acid (E)",
 						"text" : "Abbreviation: Glu",
-						"image" : "glutamic-acid.png"
+						"image" : "amino-acids/glutamic-acid.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
@@ -145,19 +145,19 @@
 						"id" : "slide-image",
 						"title" : "Polar Acidic Amino Acids: Histidine (H)",
 						"text" : "Abbreviation: His",
-						"image" : "histidine.png"
+						"image" : "amino-acids/histidine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Acidic Amino Acids: Arginine (R)",
 						"text" : "Abbreviation: Arg",
-						"image" : "arginine.png"
+						"image" : "amino-acids/arginine.png"
 					}},
 					{"slide" : {
 						"id" : "slide-image",
 						"title" : "Polar Acidic Amino Acids: Lysine (L)",
 						"text" : "Abbreviation: Lys",
-						"image" : "lysine.png"
+						"image" : "amino-acids/lysine.png"
 					}}
 				]
 			}},

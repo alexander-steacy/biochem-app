@@ -155,6 +155,9 @@ var learn = (function(){
 					switch(keys){
 						case 'id':
 							break;
+						case 'title':
+							display += '<div class="inner-slide"><h3>' + data.information[i][key][keys] + '</h3></div>';
+							break;
 						case 'text':
 							display += '<div class="inner-slide"><p>' + data.information[i][key][keys] + '</p></div>';
 							break;
