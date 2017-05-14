@@ -203,7 +203,7 @@ var learn = (function(){
 					case 'Welcome':
 						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="forward">Start Your Adventure</a></div>';
 						break;
-					case 'Description':
+					case 'Discussion':
 						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="forward">Next page</a></div>';
 						break;
 					case 'Option':
