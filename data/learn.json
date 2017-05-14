@@ -265,6 +265,8 @@
 					}},
 					{"panel" : {
 						"type" : "Option",
+						"title" : "Glycolysis: Step 1",
+						"equation" : "D-Glucose + ATP <img src=”symbols/irreversible.png” /> Glucose-6-Phosphate + ADP",
 						"explanation" : [
 							{"paragraph" : "This is text descripting the decison to be made"},
 							{"paragraph" : "This is text descripting the decison to be made"},
