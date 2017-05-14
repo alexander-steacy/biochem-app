@@ -196,9 +196,10 @@ var learn = (function(){
 			for(key in data.information[i]){
 				display += '<div class="panel">';
 				display += '<h3>' + data.information[i][key].title + '</h3>';
-				if(data.information[i][key].equation.length){
-					display += '<p class="bold">' + data.information[i][key].equation + '</p>';
-				}
+				console.log(data.information[i][key]);
+				// if(data.information[i][key].equation.length){
+				// 	display += '<p class="bold">' + data.information[i][key].equation + '</p>';
+				// }
 				for(var j=0; j<data.information[i][key].explanation.length; j++){
 					display += '<p>' + data.information[i][key].explanation[j].paragraph + '</p>';
 				}
