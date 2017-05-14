@@ -195,13 +195,16 @@ var learn = (function(){
 		for(var i=0; i<data.information.length; i++){
 			for(key in data.information[i]){
 				display += '<div class="panel">';
-				display += '<h3>' + data.information[i][key].type + '</h3>';
+				display += '<h3>' + data.information[i][key].title + '</h3>';
 				for(var j=0; j<data.information[i][key].explanation.length; j++){
 					display += '<p>' + data.information[i][key].explanation[j].paragraph + '</p>';
 				}
 				switch(data.information[i][key].type){
 					case 'Welcome':
 						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="forward">Start Your Adventure</a></div>';
+						break;
+					case 'Description':
+						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="forward">Next page</a></div>';
 						break;
 					case 'Option':
 						display += '<div class="control"><a class="panel-nav" href="javascript:void(0)" direction="' + data.information[i][key].options[0].choice.direction + '">' + data.information[i][key].options[0].choice.button + '</a></div>';

@@ -76,7 +76,7 @@
 
 			{"lesson" : {
 				"type" : "slideshow",
-				"id" : "subtopic-0",
+				"id" : "subtopic-3",
 				"class" : "subtopic",
 				"title" : "Amino Acids",
 				"image" : "topic-image.png",
@@ -236,24 +236,33 @@
 		"id" : "topic-1",
 		"class" : "learn", 
 		"image" : "topic-image.png",
-		"subject" : "Adventure",
+		"subject" : "Metabolism",
 		"subtopics" : [
 			
 			{"lesson" : {
 				"type" : "adventure",
 				"id" : "subtopic-0",
 				"class" : "subtopic",
-				"title" : "Tricarboxylic Acid Cycle",
+				"title" : "How do we get energy from our food?",
 				"image" : "topic-image.png",
 				"information" : [
 					
 					{"panel" : {
 						"type" : "Welcome",
+						"title" : "Glycolysis: An Introduction",
 						"explanation" : [
-							{"paragraph" : "This is text about the adventure and a description of what the user will have to do"}
+							{"paragraph" : "Glycolysis is a ten-step process that occurs in the cytosol of the cell, used to initiate the catabolism of glucose into pyruvate. It is an oxygen independent process and is the major source of energy for the brain. There are two phases in glycolysis, the energy investment phase and the energy return phase. In the first phase, two molecules of adenosine triphosphate (ATP) are added to the glucose molecule to form high-energy bonds. In the second phase, the energy return phase, the Gibbs free energy released from the high-energy bonds are used to produce two molecules of the reduced form of nicotinamide adenine dinucleotide (NAD<span class=”superscript”>+</span>) and four molecules of ATP. Once glycolysis is complete NADH must be regenerated in order to continue successive rounds of glycolysis."},
+							{"paragraph" : "This exercise will help you explore how glycolysis is regulated and what enzymes and processes are required to produce energy for cells."}
 						]
 					}},
-					
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: A start of an aventure",
+						"explanation" : [
+							{"paragraph" : "A marathon runner will consume small packets of sugar syrups designed to introduce glucose to the bloodstream quickly. The demands of running a marathon mean that the body’s stores of glucose will be depleted and this type of supplementation seeks to stave off the crash that occurs when the body needs to switch energy systems. This journey starts with the absorption and delivery of the glucose to muscle cells."},
+							{"paragraph" : "Click the next button to start this journey. "}
+						]
+					}},
 					{"panel" : {
 						"type" : "Option",
 						"explanation" : [
