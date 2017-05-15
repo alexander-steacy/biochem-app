@@ -304,8 +304,8 @@
 					{"panel" : {
 						"type" : "Option",
 						"title" : "Glycolysis: Step 1",
-						"equation" : "D-Glucose + ATP <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Glucose-6-Phosphate + ADP",
-						"enzyme" : "Hexokinase",
+						"equation" : "D-Glucose + ATP <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> D-Glucose-6-Phosphate + ADP",
+						"enzyme" : "Hexokinase + Mg<span class=\"superscript\">2+</span>",
 						"explanation" : [
 							{"paragraph" : "As the sugar enters the blood the body releases a hormone to signal for the uptake of glucose. Which hormone activates the first step in glycolysis?"}
 						],
@@ -335,27 +335,40 @@
 							{"paragraph" : "Glucagon is a hormone that signals for the making of glucose and the breakdown of glycogen to release sugar into the blood stream. In this scenario there is excess sugar in the blood stream."}
 						]
 					}},
-					
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: Step 2",
+						"equation" : "D-Glucose-6-Phosphate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> D-Fructose-6-Phosphate",
+						"enzyme" : "Phosphoglucose Isomerase",
+						"explanation" : [
+							{"paragraph" : "This step is a reversible step, which changes the six membered ring of glucose into a five membered ring in order to expose a second carbon for phosphorylation in the next step of glycolysis. "}
+						]
+					}},
+
 					{"panel" : {
 						"type" : "Option",
+						"title" : "Glycolysis: Step 3",
+						"equation" : "D-Fructose-6-Phosphate + ATP <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Fructose-1,6-Bisphosphate + ADP",
+						"enzyme" : "Phosphofructokinase-1 (PFK-1) + Mg<span class=\"superscript\">2+</span>",
+
 						"explanation" : [
-							{"paragraph" : "This is text descripting the decison to be made"},
-							{"paragraph" : "This is text descripting the decison to be made"},
-							{"paragraph" : "This is text descripting the decison to be made"}
+							{"paragraph" : "The runner is still in need of energy as so far no ATP has been produced; rather ATP has been used to keep the glucose in the cell. We also know that PFK-1 is highly regulated and that it represents the commitment step in glycolysis and is irreversible."},
+							{"paragraph" : "Which enzyme’s product will stimulate PFK-1 to continue with glycolysis? Think about which hormone is active in this scenario."}
 						],
 						"image" : "panel.png",
 						"options" : [
 							{"choice" : {
 								"class" : "option-A",
-								"direction" : "option-panel",
-								"button" : "button name A",
-								"text" : "This is a description of choice A"
+								"direction" : "lateral-panel",
+								"button" : "Protein Kinase A",
+								"text" : "?"
 							}},
 							{"choice" : {
 								"class" : "option-B",
-								"direction" : "lateral-panel",
-								"button" : "button name B",
-								"text" : "This is a description of choice B"
+								"direction" : "option-panel",
+								"button" : "Phosphofructokinase-2 (PFK-2)",
+								"text" : "?"
 							}}
 						]
 					}},
@@ -364,8 +377,55 @@
 						"type" : "Side Path",
 						"class" : "offshoot",
 						"return" : "true",
+						"title" : "You chose Protein Kinase A",
 						"explanation" : [
-							{"paragraph" : "This was a wrong turn, head back to see what else you could have done"}
+							{"paragraph" : "Protein Kinase A is activated by glucagon and phosphorylates PFK-2. This prevents PFK-2 from converting Fructose-6-Phosphate into Fructose-1,6-Phostate, which is an activator of PFK-1. When the runner consumes the sugar, insulin is released which activates protein phosphatase, which dephosphorylates PFK-2, thus glycolysis continues."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: Step 4",
+						"equation" : "Fructose-1,6-Bisphosphate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Dihydroxyacetone Phosphate + Glyceraldehyde-3-Phosphate",
+						"enzyme" : "Aldolase",
+						"explanation" : [
+							{"paragraph" : "This step is a reversible reaction that cleaves the single ring structure into two separate molecules. In order to keep this reaction moving in the forward direction, the products are removed nearly as fast as they are made."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: Step 5",
+						"equation" : "Dihydroxyacetone Phosphate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Glyceraldehyde-3-Phosphate",
+						"enzyme" : "Triose Phosphate Isomerase",
+						"explanation" : [
+							{"paragraph" : "This reversible step is the last step in the energy investment phase of glycolysis and only works on one of the products from step four. This step is necessary to yield the second molecule of Glyceraldehyde-3-phosphate. To this point we have not made any ATP, rather we have used two molecule of ATP."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Option",
+						"title" : "Glycolysis: Step 6",
+						"equation" : "Glyceraldehyde-3-Phosphate + Pi + NAD<span class=\"superscript\">+</span> <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> 1,3-bisphosphoglycerate (BPG) + NADH + H<span class=\"superscript\">+</span>",
+						"enzyme" : "Glyceraldehyde-3-Phosphate Dehydrogenase",
+						"explanation" : [
+							{"paragraph" : "All steps from this point forward occur twice as from steps four and five two molecules of Glyceraldehyde-3-Phosphate were produced. This step begins the energy return phase, where ATP and reduced molecules will be produced. This step required the oxidizing agent NAD+ in order to proceed. In this reaction high energy bonds are formed using Inorganic phosphate, which will be used in the following steps to generate ATP."},
+							{"paragraph" : "NAD+, must be regenerated in order to proceed. In the absence of Oxygen to oxidized NADH, which pathway is used to reproduce NAD+?"}
+						],
+						"image" : "panel.png",
+						"options" : [
+							{"choice" : {
+								"class" : "option-A",
+								"direction" : "lateral-panel",
+								"button" : "Electron Transport Chain",
+								"text" : "?"
+							}},
+							{"choice" : {
+								"class" : "option-B",
+								"direction" : "option-panel",
+								"button" : "Pentose Phosphate Pathway",
+								"text" : "?"
+							}}
 						]
 					}},
 
