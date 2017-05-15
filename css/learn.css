@@ -22,7 +22,14 @@
 div#subtopic-screen{ display: none; }
 div#learn-data{	display: none; }
 div#learn-data div#screen{ border: none; }
-div#learn-data div#screen ul{list-style-type: disc;}
+div#learn-data div#screen ul{
+	list-style-type: disc;
+	margin: 0 auto;
+	width: 80%;
+	text-align: left;
+	margin: 0 20px;
+	padding: 0 20px;
+}
 
 /********** slideshow styles *************/
 div.slide{position: relative; display: none; background-color: rgba(191,215,216,0.7);}
