@@ -1,0 +1,70 @@
+Basic Text
+			{"lesson" : {
+				"type" : "plain-text",
+				"id" : "subtopic-0",
+				"class" : "subtopic",
+				"title" : "General Information",
+				"image" : "topic-image.png",
+				"information" : [
+					{"paragraph" : ""},
+					{"unorderedlist" : [
+						{"bullet" : ""},
+						{"bullet" : ""},
+						{"bullet" : ""}
+					]},
+					{"orderedlist" : [
+						{"bullet" : ""},
+						{"bullet" : ""},
+						{"bullet" : ""}
+					]},
+					{"image" : "logo.jpg"}
+				]
+			}},
+
+video
+			{"lesson" : {
+				"type" : "video",
+				"id" : "subtopic-2",
+				"class" : "subtopic",
+				"title" : "Video Lesson",
+				"image" : "topic-image.png",
+				"information" : {
+					"videoID" : "ArmlWtDnuys",
+					"description" : ""
+				}
+			}},
+
+slideshow
+
+			{"lesson" : {
+				"type" : "slideshow",
+				"id" : "subtopic-1",
+				"class" : "subtopic",
+				"title" : "Slideshow",
+				"image" : "topic-image.png",
+				"information" : [
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide1.png",
+						"text" : ""
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide2.jpg",
+						"unorderedlist" : [
+							{"bullet" : ""},
+							{"bullet" : ""},
+							{"bullet" : ""}
+						]
+					}},
+					{"slide" : {
+						"id" : "slide-image",
+						"image" : "slide3.jpg",
+						"orderedlist" : [
+							{"bullet" : ""},
+							{"bullet" : ""},
+							{"bullet" : ""}
+						]
+					}}
+				]
+			}},
