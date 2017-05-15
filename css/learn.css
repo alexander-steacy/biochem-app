@@ -59,3 +59,8 @@ div#slide-right{right: 0;}
 
 /********** adventure styles *************/
 div.panel{display: none;}
+img.equation{
+	width: 50px;
+	display: inline-block;
+	margin: 0px 10px;
+}
