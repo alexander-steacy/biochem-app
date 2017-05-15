@@ -95,7 +95,7 @@ section#content{
 div#screen{
 	position: relative;
 	border: 1px solid #41516D;
-	height: 390px;
+	min-height: 390px;
 	border-radius: 10px;
 	width: 90%;
 	margin: 20px auto 0 auto;
