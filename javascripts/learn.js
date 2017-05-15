@@ -196,7 +196,6 @@ var learn = (function(){
 			for(key in data.information[i]){
 				display += '<div class="panel">';
 				display += '<h3>' + data.information[i][key].title + '</h3>';
-				console.log(data.information[i][key].equation);
 				if(data.information[i][key].equation != undefined){
 					display += '<p class="bold">' + data.information[i][key].equation + '</p>';
 				}

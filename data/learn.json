@@ -238,10 +238,35 @@
 		"image" : "topic-image.png",
 		"subject" : "Metabolism",
 		"subtopics" : [
-			
+
+			{"lesson" : {
+				"type" : "plain-text",
+				"id" : "subtopic-0",
+				"class" : "subtopic",
+				"title" : "Glycolysis: An Overview",
+				"image" : "topic-image.png",
+				"information" : [
+					{"paragraph" : "Net Equation:"},
+					{"paragraph" : "D-glucose + 2ADP + 2Pi + 2NAD<span class=\”superscript\”>+</span> <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> 2 pyruvate + 2ATP + 2NADH + 2H<span class=\"superscript\">+</span> + 2H2O"},
+					{"paragraph" : "Glycolysis is the metabolic process by which most cells start the breakdown of glucose into pyruvate to yield the reduced form of NAD<span class=\"superscript\">+</span> and energy in the form of ATP."},
+					{"unorderedlist" : [
+						{"bullet" : "Primary source of energy for the brain"},
+						{"bullet" : "Oxygen Independent"},
+						{"bullet" : "Occurs in the cytosol"},
+						{"bullet" : "A 10-step process with two phases: Energy Investment & Energy Return"}
+					]},
+					{"paragraph" : "Regulated Enzymes"},
+					{"unorderedlist" : [
+						{"bullet" : "Step 1: Hexokinase"},
+						{"bullet" : "Step 3: Phosphofructokinase-1"},
+						{"bullet" : "Step 10: Pyruvate Kinase"}
+					]},
+				]
+			}},
+
 			{"lesson" : {
 				"type" : "adventure",
-				"id" : "subtopic-0",
+				"id" : "subtopic-1",
 				"class" : "subtopic",
 				"title" : "How do we get energy from our food?",
 				"image" : "topic-image.png",
