@@ -22,11 +22,11 @@
 div#subtopic-screen{ display: none; }
 div#learn-data{	display: none; }
 div#learn-data div#screen{ border: none; }
+div#learn-data div#screen ul{list-style-type: disc;}
 
 /********** slideshow styles *************/
 div.slide{position: relative; display: none; background-color: rgba(191,215,216,0.7);}
 div.slide img{ width: 150px; height: auto; }
-div.slide ul{list-style-type: disc;}
 div.slide div.inner-slide{
 	position: absolute;
 	text-align: center;
