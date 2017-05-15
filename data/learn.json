@@ -442,18 +442,77 @@
 					{"panel" : {
 						"type" : "Discussion",
 						"title" : "Glycolysis: Step 7",
-						"equation" : "1,3-Bisphosphoglycerate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Glycerate-3-Phosphate",
-						"enzyme" : "Phosphoglycerate Kinase",
+						"equation" : "1,3-Bisphosphoglycerate + ADP <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Glycerate-3-Phosphate + ATP",
+						"enzyme" : "Phosphoglycerate Kinase + Mg<span class=\"superscript\">2+</span>",
 						"explanation" : [
-							{"paragraph" : "This step is a reversible reaction that cleaves the single ring structure into two separate molecules. In order to keep this reaction moving in the forward direction, the products are removed nearly as fast as they are made."}
+							{"paragraph" : "This reversible step is the first step where ATP is Generated. Since there are two molecules for Glyceraldehyde-3-Phosphate going into this phase of the cycle Two ATP’s are produced. This reaction is coupled with reaction six and proceeds quickly."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: Step 8",
+						"equation" : "Glycerate-3-Phosphate + P<span class=\"subscript\">i</span> <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Glycerate-2-Phosphate",
+						"enzyme" : "Phosophoglycerate Mutase",
+						"explanation" : [
+							{"paragraph" : "This reversible step forms an isomer with higher potential in the phosphate group."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: Step 9",
+						"equation" : "Glycerate-2-Phosphate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Phosphonol Pyruvate (PEP) + H<span class=\"subscript\">2</span>O",
+						"enzyme" : "Enolase",
+						"explanation" : [
+							{"paragraph" : "This reversible reaction creates an enol, which is an alcohol functional group next to an alkene (double bond). This is a very unstable state, which favors the ketone form rather than the enol form. The more stable ketone formation drives the next reaction. To stabilize the negative charge on the phosphate, 2 equivalents of Mg<span class=\"superscript\">2+</span> are required."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Option",
+						"title" : "Glycolysis: Step 10",
+						"equation" : "Phosphoenol Pyruvate + ADP<span class=\"superscript\">+</span> <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Pyruvate",
+						"enzyme" : "Pyruvate Kinase",
+						"explanation" : [
+							{"paragraph" : "The final step in glycolysis is irreversible. The Free energy from the phosphate group dissociation is used to form two more molecules of ATP. Pyruvate Kinase is regulated by F1,6BP binding an allosteric site on the enzyme. F1,6BP is the product of reaction 3, the commitment phase of glycolysis, which represents a feedforward mechanism."},
+							{"paragraph" : "Given that this process is occurring in a marathon runner, what do you think happens to the two molecules of Pyruvate that are formed? Think about what type of active long distance running is."}
+						],
+						"image" : "panel.png",
+						"options" : [
+							{"choice" : {
+								"class" : "option-A",
+								"direction" : "lateral-panel",
+								"button" : "Enters the Carboxylic Acid Cycle",
+								"text" : "?"
+							}},
+							{"choice" : {
+								"class" : "option-B",
+								"direction" : "option-panel",
+								"button" : "Enters Homolactic Fermentation",
+								"text" : "?"
+							}}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Side Path",
+						"class" : "offshoot",
+						"return" : "true",
+						"title" : "You chose Homolactic Fermentation",
+						"explanation" : [
+							{"paragraph" : "Marathon running is an aerobic activity, which requires the use of slow twitch muscle fibers that fire during aerobic exercise. Since this is an aerobic process Pyruvate will be converted by the Pyruvate Dehydrogenase Complex into Acetyl-CoA, which then enters the Carboxylic Acid Cycle and later the Electron Transport Chain to produce approximately 32 molecules of ATP."},
+							{"paragraph" : "If instead of a marathon runner we chose a bodybuilder, who primarily uses fast twitch muscle fibers, the answer would have been Homolactic Fermentation due to the anaerobic nature of the exercise. Also if we were referring to Brain cells rather than muscle cells we would stop at glycolysis for energy production."}
 						]
 					}},
 
 					{"panel" : {
 						"type" : "Conclusion",
 						"class" : "end-screen",
+						"title" : "Glycolysis: Conclusion",
 						"explanation" : [
-							{"paragraph" : "This is an overview of what has been learned"}
+							{"paragraph" : ""},
+							{"paragraph" : ""}
 						]
 					}}
 
