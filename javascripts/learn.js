@@ -197,7 +197,7 @@ var learn = (function(){
 				display += '<div class="panel">';
 				display += '<h3>' + data.information[i][key].title + '</h3>';
 				console.log(data.information[i][key].equation);
-				if(data.information[i][key]){
+				if(data.information[i][key].equation != undefined){
 					display += '<p class="bold">' + data.information[i][key].equation + '</p>';
 				}
 				for(var j=0; j<data.information[i][key].explanation.length; j++){
