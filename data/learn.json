@@ -429,7 +429,7 @@
 					{"panel" : {
 						"type" : "Option",
 						"title" : "Glycolysis: Step 10",
-						"equation" : "Phosphoenol Pyruvate + ADP<span class=\"superscript\">+</span> <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Pyruvate",
+						"equation" : "Phosphoenol Pyruvate + ADP <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Pyruvate + ATP",
 						"enzyme" : "Pyruvate Kinase",
 						"explanation" : [
 							{"paragraph" : "The final step in glycolysis is irreversible. The Free energy from the phosphate group dissociation is used to form two more molecules of ATP. Pyruvate Kinase is regulated by F1,6BP binding an allosteric site on the enzyme. F1,6BP is the product of reaction 3, the commitment phase of glycolysis, which represents a feedforward mechanism."},
