@@ -101,6 +101,12 @@ var learn = (function(){
 		for(var i=0; i<data.information.length; i++){
 			for(key in data.information[i]){
 				switch(key){
+					case 'heading':
+						display += '<h3>' + data.information[i][key] + '</h3>';
+						break;
+					case 'equation':
+						display += '<p class="bold">' + data.information[i][key] + '</p>';
+						break;
 					case 'paragraph':
 						display += '<p>' + data.information[i][key] + '</p>';
 						break;
