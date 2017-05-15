@@ -30,6 +30,7 @@ div#learn-data div#screen ul{
 	margin: 0 20px;
 	padding: 0 20px;
 }
+div#learn-data div#screen p,
 div#learn-data div#screen h3{
 	text-align: left;
 }
