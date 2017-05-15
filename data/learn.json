@@ -314,13 +314,13 @@
 								"class" : "option-A",
 								"direction" : "option-panel",
 								"button" : "Insulin",
-								"text" : ""
+								"text" : "?"
 							}},
 							{"choice" : {
 								"class" : "option-B",
 								"direction" : "lateral-panel",
 								"button" : "Glucagon",
-								"text" : ""
+								"text" : "?"
 							}}
 						]
 					}},
