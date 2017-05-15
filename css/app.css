@@ -178,6 +178,11 @@ div.control.large a{
 	width: 180px;
 	text-align: center;
 }
+div.control.custom{
+	width: auto;
+	padding: 10px 20px;
+	margin: 10px;
+}
 div#counter{
 	position: absolute;
 	right: 10px;

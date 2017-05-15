@@ -213,17 +213,17 @@ var learn = (function(){
 				}
 				switch(data.information[i][key].type){
 					case 'Welcome':
-						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="forward">Start Your Adventure</a></div>';
+						display += '<div class="control custom"><a class="panel-nav" href="javascript:void(0)" direction="forward">Start Your Adventure</a></div>';
 						break;
 					case 'Discussion':
-						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="forward">Next page</a></div>';
+						display += '<div class="control custom"><a class="panel-nav" href="javascript:void(0)" direction="forward">Next page</a></div>';
 						break;
 					case 'Option':
-						display += '<div class="control"><a class="panel-nav" href="javascript:void(0)" direction="' + data.information[i][key].options[0].choice.direction + '">' + data.information[i][key].options[0].choice.button + '</a></div>';
-						display += '<div class="control"><a class="panel-nav" href="javascript:void(0)" direction="' + data.information[i][key].options[1].choice.direction + '">' + data.information[i][key].options[1].choice.button + '</a></div>';
+						display += '<div class="control custom"><a class="panel-nav" href="javascript:void(0)" direction="' + data.information[i][key].options[0].choice.direction + '">' + data.information[i][key].options[0].choice.button + '</a></div>';
+						display += '<div class="control custom"><a class="panel-nav" href="javascript:void(0)" direction="' + data.information[i][key].options[1].choice.direction + '">' + data.information[i][key].options[1].choice.button + '</a></div>';
 						break;
 					case 'Side Path':
-						display += '<div class="control large"><a class="panel-nav" href="javascript:void(0)" direction="return">Return</a></div>';
+						display += '<div class="control custom"><a class="panel-nav" href="javascript:void(0)" direction="return">Return</a></div>';
 						break;
 					case 'Conclusion':
 						break;
