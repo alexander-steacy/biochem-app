@@ -338,6 +338,14 @@
 
 					{"panel" : {
 						"type" : "Discussion",
+						"title" : "Correct",
+						"explanation" : [
+							{"paragraph" : "Insulin is the hormone released when there is an excess of sugar in the blood, as is the case when the runner consumes the sugar supplement. Once the Insulin is taken into the body, Hexokinase, which has a very low K<span class=\"subscript\">m</span> or high affinity for its substrate, catalyzes the phosphorylation fo D-Glucose to D-Glucose-6-Phospahte. Once phosphorylated, glucose cannot permeat the cell membrane to exit and is therefore kept within the cell."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
 						"title" : "Glycolysis: Step 2",
 						"equation" : "D-Glucose-6-Phosphate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> D-Fructose-6-Phosphate",
 						"enzyme" : "Phosphoglucose Isomerase",
@@ -380,6 +388,14 @@
 						"title" : "You chose Protein Kinase A",
 						"explanation" : [
 							{"paragraph" : "Protein Kinase A is activated by glucagon and phosphorylates PFK-2. This prevents PFK-2 from converting Fructose-6-Phosphate into Fructose-1,6-Phostate, which is an activator of PFK-1. When the runner consumes the sugar, insulin is released which activates protein phosphatase, which dephosphorylates PFK-2, thus glycolysis continues."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Correct",
+						"explanation" : [
+							{"paragraph" : "Phosphofructokinase-2 (PFK-2) converts Fructose-6-Phosphate into Fructose-2,6-Bisphosphate, which is an activator of PFK-1, the enzyme that commits to glycolysis. Protein phosphatase is active when insulin has been resleased and thereby activates PFK-2. This regulation is necessary to assure that glycolysis only occurs when there is enough available glucose in the blood to fuel the brain."}
 						]
 					}},
 
@@ -436,6 +452,14 @@
 						"title" : "You chose Oxidative Metabolism",
 						"explanation" : [
 							{"paragraph" : "The electron transport chain requires oxygen in order to regenerate NAD<span class=\"superscript\">+</span> and FAD. In the absence of oxygen the electrons do not have a target molecule and thus the pathway is shut down. When there is insufficient oxygen to operate the ETC another metabolic pathway must be used to regenerate NAD<span class=\"superscript\">+</span>."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Correct",
+						"explanation" : [
+							{"paragraph" : "In the abscence of oxygen the cell will iundergo Homolactic Fermentation to regenerate NAD<span class=\"superscript\">+</span> in order to keep glycolysis operating. This pathway is also responsible for the build up of lactic acid that causes the onset of muscle soreness during anaeroic exercise."}
 						]
 					}},
 
