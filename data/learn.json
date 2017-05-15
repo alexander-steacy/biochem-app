@@ -305,6 +305,7 @@
 						"type" : "Option",
 						"title" : "Glycolysis: Step 1",
 						"equation" : "D-Glucose + ATP <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Glucose-6-Phosphate + ADP",
+						"enzyme" : "Hexokinase",
 						"explanation" : [
 							{"paragraph" : "As the sugar enters the blood the body releases a hormone to signal for the uptake of glucose. Which hormone activates the first step in glycolysis?"}
 						],

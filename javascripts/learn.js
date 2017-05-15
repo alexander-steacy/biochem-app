@@ -205,6 +205,9 @@ var learn = (function(){
 				if(data.information[i][key].equation != undefined){
 					display += '<p class="bold">' + data.information[i][key].equation + '</p>';
 				}
+				if(data.information[i][key].enzyme != undefined){
+					display += '<p class="bold">Enzyme: ' + data.information[i][key].enzyme + '</p>';
+				}
 				for(var j=0; j<data.information[i][key].explanation.length; j++){
 					display += '<p>' + data.information[i][key].explanation[j].paragraph + '</p>';
 				}
