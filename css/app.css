@@ -1,5 +1,5 @@
 /********** Genereal Styles **********/
-body{font: 'sans-serif'; margin: 0; padding: 0; color: #232626; max-width: 900px; margin: 0 auto; box-shadow: 0px 0px 12px #8E68AD; position: relative; border-radius: 10px; overflow: hidden;}
+body{font: 'sans-serif'; padding: 0; color: #232626; max-width: 900px; margin: 0 auto; box-shadow: 0px 0px 12px #8E68AD; position: relative; border-radius: 10px; overflow: hidden;}
 h1{font-size: 1.5em; font-weight: 600; margin: 0; padding: 0;}
 h2{font-size: 1.3em; font-weight: 400; margin: 0 0 10px 0;}
 h3{font-size: 1.1em; font-weight: normal; margin: 0 0 10px 0;}
@@ -83,6 +83,7 @@ nav ul#level-1 li a:hover{
 /********** Main Content Styles **********/
 section#content{
 	min-height: 500px;
+	overflow-y: hidden; 
 }
 #content-data{
 	position: relative;
