@@ -410,22 +410,42 @@
 						"enzyme" : "Glyceraldehyde-3-Phosphate Dehydrogenase",
 						"explanation" : [
 							{"paragraph" : "All steps from this point forward occur twice as from steps four and five two molecules of Glyceraldehyde-3-Phosphate were produced. This step begins the energy return phase, where ATP and reduced molecules will be produced. This step required the oxidizing agent NAD+ in order to proceed. In this reaction high energy bonds are formed using Inorganic phosphate, which will be used in the following steps to generate ATP."},
-							{"paragraph" : "NAD+, must be regenerated in order to proceed. In the absence of Oxygen to oxidized NADH, which pathway is used to reproduce NAD+?"}
+							{"paragraph" : "NAD<span class=\"superscript\">+</span>, must be regenerated in order to proceed. Under anaerobic conditions, which pathway is used to oxidized NADH to reproduce NAD<span class=\"superscript\">+</span>?"}
 						],
 						"image" : "panel.png",
 						"options" : [
 							{"choice" : {
 								"class" : "option-A",
 								"direction" : "lateral-panel",
-								"button" : "Electron Transport Chain",
+								"button" : "Oxidative Metabolism",
 								"text" : "?"
 							}},
 							{"choice" : {
 								"class" : "option-B",
 								"direction" : "option-panel",
-								"button" : "Pentose Phosphate Pathway",
+								"button" : "Homolactic Fermentation",
 								"text" : "?"
 							}}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Side Path",
+						"class" : "offshoot",
+						"return" : "true",
+						"title" : "You chose Oxidative Metabolism",
+						"explanation" : [
+							{"paragraph" : "The electron transport chain requires oxygen in order to regenerate NAD<span class=\"superscript\">+</span> and FAD. In the absence of oxygen the electrons do not have a target molecule and thus the pathway is shut down. When there is insufficient oxygen to operate the ETC another metabolic pathway must be used to regenerate NAD<span class=\"superscript\">+</span>."}
+						]
+					}},
+
+					{"panel" : {
+						"type" : "Discussion",
+						"title" : "Glycolysis: Step 7",
+						"equation" : "1,3-Bisphosphoglycerate <img class=\"equation\" src=\"../images/symbols/reversible.png\" /> Glycerate-3-Phosphate",
+						"enzyme" : "Phosphoglycerate Kinase",
+						"explanation" : [
+							{"paragraph" : "This step is a reversible reaction that cleaves the single ring structure into two separate molecules. In order to keep this reaction moving in the forward direction, the products are removed nearly as fast as they are made."}
 						]
 					}},
 
