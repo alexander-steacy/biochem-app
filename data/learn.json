@@ -265,8 +265,20 @@
 			}},
 
 			{"lesson" : {
-				"type" : "adventure",
+				"type" : "video",
 				"id" : "subtopic-1",
+				"class" : "subtopic",
+				"title" : "Glycolysis: A Video Walkthrough",
+				"image" : "topic-image.png",
+				"information" : {
+					"videoID" : "ArmlWtDnuys",
+					"description" : "Just a quick description of the video"
+				}
+			}},
+
+			{"lesson" : {
+				"type" : "adventure",
+				"id" : "subtopic-2",
 				"class" : "subtopic",
 				"title" : "How do we get energy from our food?",
 				"image" : "topic-image.png",
