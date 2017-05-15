@@ -253,6 +253,7 @@
 						{"bullet" : "Primary source of energy for the brain"},
 						{"bullet" : "Oxygen Independent"},
 						{"bullet" : "Occurs in the cytosol"},
+						{"bullet" : "Stimulated by Insulin"},
 						{"bullet" : "A 10-step process with two phases: Energy Investment & Energy Return"}
 					]},
 					{"heading" : "Regulated Enzymes"},
@@ -305,23 +306,21 @@
 						"title" : "Glycolysis: Step 1",
 						"equation" : "D-Glucose + ATP <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> Glucose-6-Phosphate + ADP",
 						"explanation" : [
-							{"paragraph" : "This is text descripting the decison to be made"},
-							{"paragraph" : "This is text descripting the decison to be made"},
-							{"paragraph" : "This is text descripting the decison to be made"}
+							{"paragraph" : "As the sugar enters the blood the body releases a hormone to signal for the uptake of glucose. Which hormone activates the first step in glycolysis?"}
 						],
 						"image" : "panel.png",
 						"options" : [
 							{"choice" : {
 								"class" : "option-A",
 								"direction" : "option-panel",
-								"button" : "button name A",
-								"text" : "This is a description of choice A"
+								"button" : "Insulin",
+								"text" : ""
 							}},
 							{"choice" : {
 								"class" : "option-B",
 								"direction" : "lateral-panel",
-								"button" : "button name B",
-								"text" : "This is a description of choice B"
+								"button" : "Glucagon",
+								"text" : ""
 							}}
 						]
 					}},
@@ -331,7 +330,8 @@
 						"class" : "offshoot",
 						"return" : "true",
 						"explanation" : [
-							{"paragraph" : "This was a wrong turn, head back to see what else you could have done"}
+							{"paragraph" : "You chose Glugacon"},
+							{"paragraph" : "Glucagon is a hormone that signals for the making of glucose and the breakdown of glycogen to release sugar into the blood stream. In this scenario there is excess sugar in the blood stream."},
 						]
 					}},
 					
