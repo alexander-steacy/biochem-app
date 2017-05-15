@@ -30,6 +30,9 @@ div#learn-data div#screen ul{
 	margin: 0 20px;
 	padding: 0 20px;
 }
+div#learn-data div#screen h3{
+	text-align: left;
+}
 
 /********** slideshow styles *************/
 div.slide{position: relative; display: none; background-color: rgba(191,215,216,0.7);}
