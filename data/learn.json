@@ -482,13 +482,13 @@
 						"options" : [
 							{"choice" : {
 								"class" : "option-A",
-								"direction" : "lateral-panel",
+								"direction" : "option-panel",
 								"button" : "Enters the Carboxylic Acid Cycle",
 								"text" : "?"
 							}},
 							{"choice" : {
 								"class" : "option-B",
-								"direction" : "option-panel",
+								"direction" : "lateral-panel",
 								"button" : "Enters Homolactic Fermentation",
 								"text" : "?"
 							}}
@@ -510,7 +510,7 @@
 						"type" : "Conclusion",
 						"class" : "end-screen",
 						"title" : "Glycolysis: Conclusion",
-						"equation" : "D-glucose + 2ADP + 2Pi + 2NAD<span class=\"superscript\">+</span> <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> 2 pyruvate + 2ATP + 2NADH + 2H<span class=\"superscript\">+</span> + 2H2O",
+						"equation" : "D-glucose + 2ADP + 2P<span class=\"subscript\">i</span> + 2NAD<span class=\"superscript\">+</span> <img class=\"equation\" src=\"../images/symbols/irreversible.png\" /> 2 pyruvate + 2ATP + 2NADH + 2H<span class=\"superscript\">+</span> + 2H2O",
 						"explanation" : [
 							{"paragraph" : ""},
 							{"paragraph" : ""}
