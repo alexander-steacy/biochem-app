@@ -253,6 +253,7 @@ var learn = (function(){
 				$('#subtopic-screen').fadeIn();
 				$('#screen').empty();
 				$('#subtitle').html('');
+				panelCount = 0;
 			});
 		}
 	}
