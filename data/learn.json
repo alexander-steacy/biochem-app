@@ -329,8 +329,8 @@
 						"type" : "Side Path",
 						"class" : "offshoot",
 						"return" : "true",
+						"title" : "You chose Glugacon",
 						"explanation" : [
-							{"paragraph" : "You chose Glugacon"},
 							{"paragraph" : "Glucagon is a hormone that signals for the making of glucose and the breakdown of glycogen to release sugar into the blood stream. In this scenario there is excess sugar in the blood stream."}
 						]
 					}},
